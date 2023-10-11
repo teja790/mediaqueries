@@ -1,0 +1,87 @@
+<html>
+<head>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        p {
+            font-size: 30px;
+            text-align: center;
+            border: 2px solid green;
+            padding: 10px;
+            width: 90%;
+            margin: 0 auto;
+          background-color:pink;
+         
+        }
+      label{
+        font-size:20px;
+        text-align:center;
+        padding:10px;
+         transform:translate(50%,50%);
+       
+      }
+     
+        @media (max-width: 600px) and(min-width:800px) {
+            p {
+                width: 100px;
+              height:100px;
+             
+            }
+        }
+        @media screen and (max-width:701px)and(max-width:1200px){
+        label{
+          width:90%;
+          
+        }
+      }
+       @media (max-width: 601px) {
+            h1 {
+                width: 90%;
+              height:90%;
+              
+              
+            }
+        }
+      @media screen and (min-width: 480px) {
+  body {
+    background-image: url('pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg');
+  }
+}
+    </style>
+</head>
+<body>
+  <header>
+    <h1><u>"Application form"</u></h1>
+  <p>An application form is an official document that employers want their job candidates to fill in while applying for a job. The employer would ask a series of questions that candidates must answer.</p></header>
+  <br>
+    <div>
+        <label for="input">First name:</label>
+       <input type="text" id="input">
+ 
+       <label for="input">last name:</label>
+       <input type="text" id="input">
+      <br>
+       <label for="input">email:</label>
+        <input type="text" id="input">
+      
+       <label for="input">confirm email:</label>
+        <input type="text" id="input">
+      <br>
+       <label for="input">phone:</label>
+        <input type="text" id="input">
+        <br>
+         <label for="input">qualification:</label>
+        <input type="text" id="input">
+        
+        <select id="qualification">
+  <option value="B.Tech">B.Tech</option>
+  <option value="Degree">Degree</option>
+  <option value="post graduate">post graduate</option>
+  
+</select>
+    </div>
+  
+</body>
+</html>
